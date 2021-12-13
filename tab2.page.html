@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Study!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Start Studying Now!</h1>
+  <p>Click the card below to go over the different topics that you should know for your exam!</p>
+
+  <ion-card>
+    <ion-item>
+      <img height="100" width="100" src="../../assets/download.jpg" slot='start'>
+      <ion-label>Top 25 Drugs</ion-label>
+      <ion-button routerLink="/drugs" slot="end" expand="block">Go!</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+      <img height="100" width="100" src="../../assets/law-book.jpg" slot="start">
+      <ion-label>Top Laws to Know</ion-label>
+      <ion-button slot="end">Go!</ion-button>
+    </ion-item>
+  </ion-card>
+    
+  <ion-card>
+    <ion-item>
+      <img height="100" width="100" src="../../assets/math.jpg" slot="start">
+      <ion-label>Math</ion-label>
+      <ion-button slot="end">Go!</ion-button>
+    </ion-item>
+  </ion-card>
+
+  
+</ion-content>
